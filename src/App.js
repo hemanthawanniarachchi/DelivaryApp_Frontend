@@ -10,6 +10,7 @@ import Profile from './components/Profile';
 import Recovery from './components/Recovery';
 import Reset from './components/Reset';
 import PageNotFound from './components/PageNotFound';
+import LandingPage from './components/LandingPage';
 
 
 /** auth middleware */
@@ -18,7 +19,7 @@ import { AuthorizeUser, ProtectRoute } from './middleware/auth'
 /** root routes */
 const router = createBrowserRouter([
     {
-        path : '/',
+        path : '/username',
         element : <Username></Username>
     },
     {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
     {
         path : '*',
         element : <PageNotFound></PageNotFound>
+    },
+    {
+        path : '/',
+        element : <LandingPage></LandingPage>
     },
 ])
 
