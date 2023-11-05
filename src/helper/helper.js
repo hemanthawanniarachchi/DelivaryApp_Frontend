@@ -113,3 +113,23 @@ export async function resetPassword({ username, password }){
     }
 }
 
+/** add product function */
+export async function addProduct({ PName, Price }){
+    try {
+        const dataToSend = {
+            name: PName,
+            price: Price
+          };
+          const config = {
+            headers: {
+              'Access-Control-Allow-Origin': '*',
+              // Add other headers here if needed
+            }
+          };
+          
+        const { data, status } = await axios.post('http://localhost:8080/api/products/add', dataToSend, config);
+        return Promise.resolve({ data, status})
+    } catch (error) {
+        return Promise.reject({ error })
+    }
+}
