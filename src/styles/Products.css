@@ -1,0 +1,49 @@
+.topbar {
+    background-color: #191970;
+    overflow: hidden;
+}
+
+/* Style for the individual tabs */
+.tab {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the color of the tabs when hovered over */
+.tab:hover {
+    background-color: #b3cee5;
+    color: #191970;
+}
+
+.widgetsall {
+    text-align: center;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.widget {
+    margin: 20px; 
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    float: left;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+.Products {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.addtocart{
+    background-color: #b3cee5;
+    border-radius: 10px;
+    padding: 5px;
+}
