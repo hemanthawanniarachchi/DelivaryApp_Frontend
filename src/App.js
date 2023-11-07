@@ -12,7 +12,7 @@ import Reset from './components/Reset';
 import PageNotFound from './components/PageNotFound';
 import LandingPage from './components/LandingPage';
 import Products from './components/Products';
-import ListItem from './components/ListItem';
+import AddProduct from './components/AddProduct';
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from './middleware/auth'
 
@@ -56,8 +56,8 @@ const router = createBrowserRouter([
         element : <LandingPage></LandingPage>
     },
     {
-        path : '/list',
-        element : <ListItem></ListItem>
+        path : '/addProduct',
+        element : <AddProduct></AddProduct>
     },
 ])
 
