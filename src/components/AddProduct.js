@@ -52,11 +52,13 @@ export default function AddProduct() {
   }
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto" >
 
       <Toaster position='top-center' reverseOrder={false}></Toaster>
 
-      <div className='flex justify-center items-center h-screen'>
+      <div className="container" style={{ width: "100vw"}}>
+      
+      <div className='flex justify-center items-center h-screen' style={{ margin: "auto"}}>
         <div className={styles.glass} style={{ width: "45%", paddingTop: '3em'}}>
 
           <div className="title flex flex-col items-center">
@@ -87,6 +89,8 @@ export default function AddProduct() {
           </form>
 
         </div>
+      </div>
+
       </div>
     </div>
   )

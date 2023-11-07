@@ -47,3 +47,12 @@
     border-radius: 10px;
     padding: 5px;
 }
+
+.widget:hover{
+    background-color: bisque;
+   
+ }
+
+ .addtoCartBtn:hover{
+    transform: scale(1.5);
+ }
