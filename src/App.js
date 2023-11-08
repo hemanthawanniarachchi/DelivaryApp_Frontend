@@ -14,9 +14,13 @@ import LandingPage from './components/LandingPage';
 
 import Products from './components/Products';
 import AddProduct from './components/AddProduct';
+import Cart from './components/Cart';
+import Layout from './components/Layout';
+
 
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from './middleware/auth'
+import { addProduct } from './helper/helper';
 
 /** root routes */
 const router = createBrowserRouter([
@@ -36,9 +40,13 @@ const router = createBrowserRouter([
         path : '/profile',
         element : <AuthorizeUser><Profile /></AuthorizeUser>
     },
+    // {
+    //     path : '/products',
+    //     element : <Products></Products>
+    // },
     {
         path : '/products',
-        element : <Products></Products>
+        element : <Layout body={<Products></Products>}/>
     },
     {
         path : '/recovery',
@@ -62,8 +70,12 @@ const router = createBrowserRouter([
         element : <LandingPage></LandingPage>
     },
     {
+        path : '/cart',
+        element : <Layout body={<Cart customerId="e5495544-d4ea-4932-a74f-5a38f4b86e6"></Cart>}/>
+    },
+    {
         path : '/addProduct',
-        element : <AddProduct></AddProduct>
+        element : <Layout body={<AddProduct />}/>
     },
 ])
 

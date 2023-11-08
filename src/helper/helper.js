@@ -133,3 +133,25 @@ export async function addProduct({ PName, Price }){
         return Promise.reject({ error })
     }
 }
+
+/** Cart Management Functions */
+export async function removeFromCart(id){
+
+}
+
+
+export async function getCartItems(customerId){
+    try {
+        const config = {
+            headers: {
+              'Access-Control-Allow-Origin': '*',
+              // Add other headers here if needed
+            }
+          };
+        const { data, status } = await axios.get(`http://localhost:8080/api/orders/cart/${customerId}`,{},config);
+        
+        return { data }
+     } catch (error) {
+         return Promise.reject(error);
+     }
+}
