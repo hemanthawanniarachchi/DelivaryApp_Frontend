@@ -11,12 +11,12 @@ import Recovery from './components/Recovery';
 import Reset from './components/Reset';
 import PageNotFound from './components/PageNotFound';
 import LandingPage from './components/LandingPage';
- 
-import Products from './components/Products';
 
+import Products from './components/Products';
 import AddProduct from './components/AddProduct';
 import Cart from './components/Cart';
 import Layout from './components/Layout';
+
 
 /** auth middleware */
 import { AuthorizeUser, ProtectRoute } from './middleware/auth'
@@ -55,6 +55,10 @@ const router = createBrowserRouter([
     {
         path : '/reset',
         element : <Reset></Reset>
+    },
+    {
+        path : '/products',
+        element : <Products></Products>
     },
     
     {
