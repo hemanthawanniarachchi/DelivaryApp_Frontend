@@ -37,8 +37,10 @@ const router = createBrowserRouter([
         element : <ProtectRoute><Password /></ProtectRoute>
     },
     {
+        // path : '/profile',
+        // element : <AuthorizeUser><Profile /></AuthorizeUser>
         path : '/profile',
-        element : <AuthorizeUser><Profile /></AuthorizeUser>
+        element : <Profile />
     },
     // {
     //     path : '/products',

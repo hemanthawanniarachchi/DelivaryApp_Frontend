@@ -17,9 +17,9 @@ export default function Register() {
 
   const formik = useFormik({
     initialValues : {
-      email: 'doyol56239@cnogs.com',
-      username: 'example123',
-      password : 'admin@123'
+      email: '',
+      username: '',
+      password : ''
     },
     validate : registerValidation,
     validateOnBlur: false,
@@ -45,7 +45,7 @@ export default function Register() {
   }
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-4 ">
 
       <Toaster position='top-center' reverseOrder={false}></Toaster>
 
@@ -54,7 +54,7 @@ export default function Register() {
 
           <div className="title flex flex-col items-center">
             <h4 className='text-5xl font-bold'>Register</h4>
-            <span className='py-4 text-xl w-2/3 text-center text-gray-500'>
+            <span className='py-4 text-xl w-3/3 text-center text-gray-500'>
                 Happy to join you!
             </span>
           </div>
@@ -69,9 +69,20 @@ export default function Register() {
               </div>
 
               <div className="textbox flex flex-col items-center gap-6">
+                 
                   <input {...formik.getFieldProps('email')} className={styles.textbox} type="text" placeholder='Email*' />
+                  <input {...formik.getFieldProps('Telephone')} className={styles.textbox} type="text" placeholder='Telephone Number*' />
                   <input {...formik.getFieldProps('username')} className={styles.textbox} type="text" placeholder='Username*' />
+                  <input {...formik.getFieldProps('address')} className={styles.textbox} type="text" placeholder='Address*' />
+                  <select {...formik.getFieldProps('gender')} className={styles.textbox}>
+                  <option value="" label="Select Gender" />
+                  <option value="male" label="Male" />
+                  <option value="female" label="Female" />
+                  <option value="other" label="Other" />
+                  </select>
+                  <input {...formik.getFieldProps('DOB')} className={styles.textbox} type="Date" placeholder='Date of Birth*' />
                   <input {...formik.getFieldProps('password')} className={styles.textbox} type="text" placeholder='Password*' />
+                  <input {...formik.getFieldProps('Confirm Password')} className={styles.textbox} type="text" placeholder='Confirm Password*' />
                   <button className={styles.btn} type='submit'>Register</button>
               </div>
 

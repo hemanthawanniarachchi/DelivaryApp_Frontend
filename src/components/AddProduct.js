@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import avatar from '../assets/product.jpg';
+import avatar from '../assets/ProductIcon.png';
 import toast, { Toaster } from 'react-hot-toast';
 import { useFormik } from 'formik';
 import { registerValidation } from '../helper/validate';
@@ -79,8 +79,20 @@ export default function AddProduct() {
 
               <div className="textbox flex flex-col items-center gap-6">
                   <input {...formik.getFieldProps('PName')} className={styles.textbox} type="text" id="PName" placeholder='Product Name*' />
+                  <select {...formik.getFieldProps('category')} className={styles.textbox}>
+                  <option value="" label="Product Category" />
+                  <option value="Vegetables" label="Vegetables" />
+                  <option value="Fruits" label="Fruits" />
+                  <option value="Meat" label="Meat" />
+                  <option value="Beverages" label="Beverages" />
+                  <option value="Frozen food" label="Frozen food" />
+                  <option value="Grocery" label="Grocery" />
+                  <option value="Homeware" label="Homeware" />
+                  <option value="Household" label="Household" />
+
+                  </select>
                   <input {...formik.getFieldProps('Price')} className={styles.textbox} type="number" id="Price" placeholder='Price*' />
-                  
+                  <input {...formik.getFieldProps('Unit')} className={styles.textbox} type="number" id="Unit" placeholder='Unit*' />
                   <button className={styles.btn} type='submit'>Add Item</button>
               </div>
 

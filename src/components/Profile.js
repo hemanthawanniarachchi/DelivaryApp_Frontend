@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import avatar from '../assets/profile.png';
+import avatar from '../assets/ProfilePic.jpg';
 import toast, { Toaster } from 'react-hot-toast';
 import { useFormik } from 'formik';
 import { profileValidation } from '../helper/validate';
@@ -19,11 +19,12 @@ export default function Profile() {
  
   const formik = useFormik({
     initialValues : {
-      firstName : apiData?.firstName || '',
-      lastName: apiData?.lastName || '',
-      email: apiData?.email || '',
-      mobile: apiData?.mobile || '',
-      address : apiData?.address || ''
+      Username: 'ThiunuwanGVR',
+      firstName :  'Ravindu',
+      lastName: 'Thiunuwan',
+      email: 'ravindu@gmail.com',
+      mobile: '0773457620',
+      address : 'Richmond hill,Galle'
     },
     enableReinitialize: true,
     validate : profileValidation,
@@ -54,8 +55,8 @@ export default function Profile() {
     navigate('/')
   }
 
-  if(isLoading) return <h1 className='text-2xl font-bold'>isLoading</h1>;
-  if(serverError) return <h1 className='text-xl text-red-500'>{serverError.message}</h1>
+  // if(isLoading) return <h1 className='text-2xl font-bold'>isLoading</h1>;
+  // if(serverError) return <h1 className='text-xl text-red-500'>{serverError.message}</h1>
 
   return (
     <div className="container mx-auto">
@@ -67,9 +68,9 @@ export default function Profile() {
 
           <div className="title flex flex-col items-center">
             <h4 className='text-5xl font-bold'>Profile</h4>
-            <span className='py-4 text-xl w-2/3 text-center text-gray-500'>
+            {/* <span className='py-4 text-xl w-2/3 text-center text-gray-500'>
                 You can update the details.
-            </span>
+            </span> */}
           </div>
 
           <form className='py-1' onSubmit={formik.handleSubmit}>
@@ -82,6 +83,7 @@ export default function Profile() {
               </div>
 
               <div className="textbox flex flex-col items-center gap-6">
+              <input {...formik.getFieldProps('Username')} className={`${styles.textbox} ${extend.textbox}`} type="text" placeholder='Username' />
                 <div className="name flex w-3/4 gap-10">
                   <input {...formik.getFieldProps('firstName')} className={`${styles.textbox} ${extend.textbox}`} type="text" placeholder='FirstName' />
                   <input {...formik.getFieldProps('lastName')} className={`${styles.textbox} ${extend.textbox}`} type="text" placeholder='LastName' />
