@@ -97,7 +97,8 @@ const LandingPage = () => {
         <div class="hero-content">
         <h1 class="wow fadeInUp" data-wow-delay=".2s">Home Delivery <span>From Stores Near You</span> </h1>
         <p class="wow fadeInUp" data-wow-delay=".4s">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        Experience the future of shopping with Home Delivery Hub – where your favorite products are just a click away! <br/>
+        Enjoy convenience and quality as we bring stores near you right to your doorstep.
         </p>
         <a href="javascript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">Get Started</a>
         </div>
@@ -130,7 +131,7 @@ const LandingPage = () => {
         </div>
         <div class="content">
         <h3>Food</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        <p>Savor the extraordinary – a symphony of flavors awaits to elevate your dining experience and create unforgettable moments.</p>
         </div>
         </div>
         </div>
@@ -141,7 +142,7 @@ const LandingPage = () => {
         </div>
         <div class="content">
         <h3>Grocery</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        <p>Discover convenience and quality in every aisle – explore a curated selection of premium groceries to simplify your shopping and elevate your kitchen essentials.</p>
         </div>
         </div>
         </div>
@@ -152,7 +153,7 @@ const LandingPage = () => {
         </div>
         <div class="content">
         <h3>Furniture</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        <p>Transform your living space with style and comfort – explore our collection of elegant and functional furniture pieces that redefine your home's aesthetic.</p>
         </div>
         </div>
         </div>
@@ -163,7 +164,7 @@ const LandingPage = () => {
         </div>
         <div class="content">
         <h3>Medicine</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        <p>"Prioritize your well-being with our comprehensive selection of high-quality medicines, ensuring you have access to essential healthcare solutions for a healthier and happier life.</p>
         </div>
         </div>
         </div>
@@ -174,7 +175,7 @@ const LandingPage = () => {
         </div>
         <div class="content">
         <h3>Electronics</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        <p>Explore cutting-edge technology and elevate your lifestyle with our range of innovative electronics, designed to bring convenience and excitement to your daily experiences.</p>
         </div>
         </div>
         </div>
@@ -185,7 +186,7 @@ const LandingPage = () => {
         </div>
         <div class="content">
         <h3>Clothes</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        <p>Discover style that suits your personality with our diverse collection of fashion-forward clothing, blending comfort and trendsetting designs to elevate your wardrobe.</p>
         </div>
         </div>
         </div>
@@ -207,7 +208,7 @@ const LandingPage = () => {
         <div class="section-title">
         <span class="wow fadeInUp" data-wow-delay=".2s">About Us</span>
         <h1 class="wow fadeInUp" data-wow-delay=".4s">On-time Delivery and Customer Satisfaction</h1>
-        <p class="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p class="wow fadeInUp" data-wow-delay=".6s">We take pride in our commitment to on-time delivery and unwavering dedication to customer satisfaction. Our mission is to provide you with exceptional service, ensuring a seamless experience from order to delivery.</p>
         </div>
         <div class="rating-meta d-flex align-items-center wow fadeInUp" data-wow-delay=".65s">
         <h5>Rating 4.8</h5>
@@ -248,7 +249,7 @@ const LandingPage = () => {
         <div class="section-title">
         <span class="wow fadeInUp" data-wow-delay=".2s">Fast Delivery</span>
         <h1 class="mb-35 wow fadeInUp" data-wow-delay=".4s">Order Now, Recieve Within 30mins</h1>
-        <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore hdht dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">Experience lightning-fast delivery! Place your order now and receive it within 30 minutes. We prioritize efficiency to ensure you get your items quickly and conveniently</p>
         <a href="javscript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".8s">Get Started</a>
         </div>
         </div>
@@ -276,7 +277,7 @@ const LandingPage = () => {
         <div class="section-title">
         <span class="wow fadeInUp" data-wow-delay=".2s">Contactless Delivery</span>
         <h1 class="mb-25 wow fadeInUp" data-wow-delay=".4s">On-time Delivery to Your Doorstep</h1>
-        <p class="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p class="wow fadeInUp" data-wow-delay=".6s">Swift and reliable, our fast delivery ensures you receive your orders within 30 minutes of placing them. Trust us for efficient service and a quick turnaround, making your shopping experience as convenient as possible.</p>
         </div>
         </div>
         </div>
@@ -306,7 +307,7 @@ const LandingPage = () => {
         <i class="lni lni-star-filled"></i>
         </div>
         <div class="content">
-        <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+        <p>Incredible service! The fast delivery exceeded my expectations, and the products were exactly as described. Will definitely be a repeat customer!</p>
         </div>
         <div class="info">
         <div class="image">
@@ -314,7 +315,7 @@ const LandingPage = () => {
         </div>
         <div class="text">
         <h5>Ena Shah</h5>
-        <p>Teacher at Abc School</p>
+        <p>Teacher at Peter's College</p>
         </div>
         </div>
         </div>
@@ -329,7 +330,7 @@ const LandingPage = () => {
         <i class="lni lni-star-filled"></i>
         </div>
         <div class="content">
-        <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+        <p>I'm thoroughly impressed with the seamless shopping experience provided. The contactless delivery was a game-changer for me. Excellent service!</p>
         </div>
         <div class="info">
         <div class="image">
@@ -352,7 +353,7 @@ const LandingPage = () => {
         <i class="lni lni-star-filled"></i>
         </div>
         <div class="content">
-        <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+        <p>Top-notch customer service! From placing my order to doorstep delivery, everything was smooth and efficient. The attention to detail and on-time service make my go-to for online shopping.</p>
         </div>
         <div class="info">
         <div class="image">
@@ -375,7 +376,7 @@ const LandingPage = () => {
         <i class="lni lni-star-filled"></i>
         </div>
         <div class="content">
-        <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+        <p>Reliable and trustworthy. I've been consistently impressed with the quality of products and the speed of delivery. A five-star experience every time!</p>
         </div>
         <div class="info">
         <div class="image">
@@ -398,7 +399,7 @@ const LandingPage = () => {
         <i class="lni lni-star-filled"></i>
         </div>
         <div class="content">
-        <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+        <p>Exceptional! You set the standard for online shopping. The contactless delivery is a fantastic feature, ensuring a safe and convenient experience. Highly recommended!</p>
         </div>
         <div class="info">
         <div class="image">
@@ -421,7 +422,7 @@ const LandingPage = () => {
         <i class="lni lni-star-filled"></i>
         </div>
         <div class="content">
-        <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
+        <p>I can't express how satisfied I am. From the diverse product range to the lightning-fast delivery, they've earned every bit of this five-star rating. Kudos to the team!</p>
         </div>
         <div class="info">
         <div class="image">
@@ -452,7 +453,7 @@ const LandingPage = () => {
         <div class="col-lg-3 col-md-6">
         <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
         <div class="logo">
-        <a href="#"><img src="assets/img/logo/logo-2.svg" alt="logo" /></a>
+        {/* <a href="#"><img src="assets/img/logo/logo-2.svg" alt="logo" /></a> */}
         </div>
         <div class="download-btns">
         <a href="javascript:void(0)">
