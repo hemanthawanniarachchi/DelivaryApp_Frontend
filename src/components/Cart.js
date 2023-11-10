@@ -9,13 +9,19 @@ import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
-
-
+import duct from '../assets/productimages/ducttape.jpg'
+import glue from '../assets/productimages/glue.jpg'
+import milk from '../assets/productimages/milk.jpg'
+import noodles from '../assets/productimages/noodles.jpg'
+import chips from '../assets/productimages/potato.jpg'
+import shampoo from '../assets/productimages/shampoo.jpg'
+import soap from '../assets/productimages/soap.jpg'
+import toothpaste from '../assets/productimages/toothpaste.jpg'
 
 function Item(props) {
     return (
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-                <img src={avatar} className="profile_img" alt="avatar" />
+                <img src={props.id.img} className="profile_img" alt="avatar" />
                 { props.productName } <br/>
                 <span style={{color: "#a19e95", marginBottom: "10px"}}>remaining: { props.quantity }</span>
             
@@ -30,7 +36,7 @@ export default function Cart(props){
     let tax = 124.53;
 
     const itemInfoArray = [
-        { img:"#", productName: "Dishwash Liquid", model: "350Rs", id: "test1", quantity: "5"},
+        { img:duct, productName: "Dishwash Liquid", model: "350Rs", id: "test1", quantity: "5"},
         { img:"#", productName: "Shampoo", model: "200Rs", id: "test2",quantity: "5"},
         { img:"#", productName: "Dishwash Liquid", model: "350Rs", id: "test3" ,quantity: "5"},
         { img:"#", productName: "Shampoo", model: "200Rs", id: "test4" ,quantity: "5"},
